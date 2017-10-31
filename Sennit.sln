@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - API", "1 - API", "{43BCDA8E-FFFA-4009-A686-F6E25C9D4BCB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain", "2 - Domain", "{F47AF1BD-6394-403B-9D9D-80A79F9BA4F4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Infra", "3 - Infra", "{AD94E4C1-CD9E-4746-BB97-EA065B9AF7B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sennit.Api", "Sennit.Api\Sennit.Api.csproj", "{6AB88936-F34B-45D7-B362-006521C1930D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sennit.Domain", "Sennit.Domain\Sennit.Domain.csproj", "{129AC5C7-DE11-4BCF-8CE3-9BED44403DA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sennit.Shared", "Sennit.Shared\Sennit.Shared.csproj", "{C28AE67F-35B0-40F6-BA5D-A8DEAC9CA69C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sennit.Infra", "Sennit.Infra\Sennit.Infra.csproj", "{218266E2-2644-4937-AD1D-0F60F4FBC0D4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6AB88936-F34B-45D7-B362-006521C1930D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AB88936-F34B-45D7-B362-006521C1930D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AB88936-F34B-45D7-B362-006521C1930D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AB88936-F34B-45D7-B362-006521C1930D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{129AC5C7-DE11-4BCF-8CE3-9BED44403DA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{129AC5C7-DE11-4BCF-8CE3-9BED44403DA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{129AC5C7-DE11-4BCF-8CE3-9BED44403DA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{129AC5C7-DE11-4BCF-8CE3-9BED44403DA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C28AE67F-35B0-40F6-BA5D-A8DEAC9CA69C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C28AE67F-35B0-40F6-BA5D-A8DEAC9CA69C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C28AE67F-35B0-40F6-BA5D-A8DEAC9CA69C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C28AE67F-35B0-40F6-BA5D-A8DEAC9CA69C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{218266E2-2644-4937-AD1D-0F60F4FBC0D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{218266E2-2644-4937-AD1D-0F60F4FBC0D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{218266E2-2644-4937-AD1D-0F60F4FBC0D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{218266E2-2644-4937-AD1D-0F60F4FBC0D4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6AB88936-F34B-45D7-B362-006521C1930D} = {43BCDA8E-FFFA-4009-A686-F6E25C9D4BCB}
+		{129AC5C7-DE11-4BCF-8CE3-9BED44403DA5} = {F47AF1BD-6394-403B-9D9D-80A79F9BA4F4}
+		{C28AE67F-35B0-40F6-BA5D-A8DEAC9CA69C} = {F47AF1BD-6394-403B-9D9D-80A79F9BA4F4}
+		{218266E2-2644-4937-AD1D-0F60F4FBC0D4} = {AD94E4C1-CD9E-4746-BB97-EA065B9AF7B0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7D562E1B-A6F5-4517-8A9C-73C31399C106}
+	EndGlobalSection
+EndGlobal
